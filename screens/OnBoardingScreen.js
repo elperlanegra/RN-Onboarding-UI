@@ -42,11 +42,10 @@ const Done = ({...props}) => (
     <TouchableOpacity
         style={{marginHorizontal:10}}
         {...props}
-    >
+    >  
         <Text style={{fontSize:16}}>Done</Text>
     </TouchableOpacity>
 );
-
 
 const OnBoardingScreen = ({navigation}) => {
   return (
@@ -84,7 +83,6 @@ const OnBoardingScreen = ({navigation}) => {
 };
 
 export default OnBoardingScreen;
-
 
 const styles = StyleSheet.create({
     container: {
