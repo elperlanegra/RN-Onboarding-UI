@@ -8,6 +8,8 @@ import OnBoardingScreen from './screens/OnBoardingScreen';
 import LoginScreen from './screens/LoginScreen';
 
 
+const AppStack = createStackNavigator();
+
 const App = ()  => {
   return (
     <NavigationContainer>
